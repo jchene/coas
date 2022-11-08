@@ -14,19 +14,15 @@ function loadImages(){
 	}
 }
 
-function setLeaderboard(name){
-	var p = $("<p>The " + name.charAt(0).toUpperCase() + name.slice(1) + "</p>").attr("class", "imgtext");
-	var score = $("<p>100 000</p>").attr("class", "imgtext");
-	var	imgboard = $("." + name);
-	p.appendTo(imgboard);
-	score.appendTo(imgboard);
-}
-
 function displayLeaderboard(){
 	$(".imgtext").remove();
 	var coas = ["order", "federation", "alliance", "assembly"];
+	var boardRow = $(".row3")
 	for (let i = 0; i < 4; i++){
-		setLeaderboard(coas[i]);
+		var p = $("<p>The " + coas[i].charAt(0).toUpperCase() + coas[i].slice(1) + "</p>").attr("class", "imgtext");
+	  var	board = $("<div></div>").attr("class", "col s3 txtcol");
+	  p.appendTo(board);
+	  board.appendTo(boardRow);
 	}
 }
 

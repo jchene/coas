@@ -1,3 +1,33 @@
+@media screen and (max-width: 1080px){
+    .ubtn{
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+    .imgtext{
+        font: 600 1.5em "Avenir", sans-serif;
+        margin-left: -2vw;
+    }
+    .profilepic {
+        margin-left: -3vw;
+    }
+    .usericon{
+        margin-left: -1.4vw;
+    }
+}
+
+@media screen and (min-width: 1080px){
+    .ubtn{
+        margin-left: 3vh;
+        margin-right: 3vh;
+    }
+    .imgtext{
+        font: 950 3em "Avenir", sans-serif;
+    }
+    .profilepic {
+        margin-right: -6vw;
+    }
+}
+
 body{
     padding: 0;
     margin: 0;
@@ -6,51 +36,50 @@ body{
 .container{
     height: inherit;
     width: 98vw;
-	padding: 0;
+	  padding: 0;
     margin: 0;
 }
 
 .row1{
     height: 9.5vh;
-	width: 100vw;
+	  width: 100vw;
     background-color: #333;
     text-align: center;
-	padding: 0;
+	  padding: 0;
     margin: 0;
 }
 
 .ubtn{
-	font-size: 2.5rem;
-	min-width: 6vh;
-	min-height: 6vh;
-    margin-top: 1.60vh;
-    margin-left: 3vh;
-    margin-right: 3vh;
+    min-width: 6vh;
+    min-height:6vh;
+    max-width: 6vh;
+    max-height: 6vh;
+    margin-top: 1.6vh;
+    font-size: 2.5rem;
+    object-fit: contain;
     background-color:  rgba(255, 255, 255, 0.6);
-	object-fit: contain;
 }
 
 .ubtn:hover{
-	background-color: rgba(255, 255, 255, 0.2);
+  	background-color: rgba(255, 255, 255, 0.2);
 }
 
 .profilepic{
     width: 8vh;
     margin-top: 0.75vh;
-    margin-right: -6vw;
     border-radius: 100%;
-	border: 3px solid white;
+	  border: 3px solid white;
 }
 
 .row2{
-	width: 100vw;
+	  width: 100vw;
     text-align: center;
-	padding: 0;
+	  padding: 0;
     margin: 0;
 }
 
 .imgcol{
-	height: 90vh;
+	  height: 90vh;
 }
 
 .img{
@@ -58,39 +87,38 @@ body{
     width: 25vw;
     object-fit: cover;
     margin-left: -12.5vw;
-	margin-top: -0vh;
-	position: absolute;
-	z-index: 14;
+	  margin-top: -0vh;
+  	position: absolute;
+  	z-index: 14;
 }
 
 .imgtext{
-	width: 24vw;
-	margin-top: 5vh;
-	position: relative;
-	color: rgba(255, 255, 255, 0.8);
-	font: 950 3em "Avenir", sans-serif;
-	z-index: 15;
+  	width: 24vw;
+  	margin-top: 5vh;
+  	position: relative;
+  	color: rgba(255, 255, 255, 0.8);
+  	z-index: 15;
 }
 
 .imglogo{
-	position: relative;
-	z-index: 15;
+  	position: relative;
+  	z-index: 15;
 }
 
 .row3{
-	width: 100vw;
-	padding: 0;
+	  width: 100vw;
+	  padding: 0;
     margin: -90vh 0 0 0;
 }
 
 .row4{
-	width: 100vw;
-	padding: 0;
-    margin: 0;
+  	width: 100vw;
+  	padding: 0;
+    margin: -80vh 0 0 0;
 }
 
 .row5{
-	width: 100vw;
-	padding: 0;
-    margin: 0;
+	  width: 100vw;
+	  padding: 0;
+    margin: -70vh 0 0 0;
 }
