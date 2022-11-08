@@ -20,7 +20,7 @@ body{
 }
 
 .ubtn{
-	font-size: 2rem;
+	font-size: 1.6rem;
 	min-width: 6vh;
 	min-height: 6vh;
     margin-top: 1.60vh;
@@ -69,10 +69,16 @@ body{
 	position: relative;
 	color: rgba(255, 255, 255, 0.8);
 	font: bold 3em "Avenir", sans-serif;
-	
+	z-index: 15;
 }
 
 .imglogo{
 	position: relative;
 	z-index: 15;
+}
+
+.row3{
+	width: 100vw;
+	margin-top: -90vh;
+	margin-bottom: 0px;
 }
