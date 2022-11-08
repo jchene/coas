@@ -20,7 +20,7 @@ body{
 }
 
 .ubtn{
-	font-size: 1.6rem;
+	font-size: 2.5rem;
 	min-width: 6vh;
 	min-height: 6vh;
     margin-top: 1.60vh;
@@ -54,7 +54,7 @@ body{
 }
 
 .img{
-    height: 90vh;
+    height: 90.5vh;
     width: 25vw;
     object-fit: cover;
     margin-left: -12.5vw;
@@ -68,7 +68,7 @@ body{
 	margin-top: 5vh;
 	position: relative;
 	color: rgba(255, 255, 255, 0.8);
-	font: bold 3em "Avenir", sans-serif;
+	font: 950 3em "Avenir", sans-serif;
 	z-index: 15;
 }
 
@@ -79,6 +79,18 @@ body{
 
 .row3{
 	width: 100vw;
-	margin-top: -90vh;
-	margin-bottom: 0px;
+	padding: 0;
+    margin: -90vh 0 0 0;
+}
+
+.row4{
+	width: 100vw;
+	padding: 0;
+    margin: 0;
+}
+
+.row5{
+	width: 100vw;
+	padding: 0;
+    margin: 0;
 }
